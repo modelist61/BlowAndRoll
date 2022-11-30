@@ -1,16 +1,17 @@
 import AVFoundation
 import Foundation
-//import Combine
 
 class MicrophoneService: ObservableObject {
+    // MARK: Properties
 
-//    let objectWillChange = PassthroughSubject<MicrophoneService, Never>()
     var audioRecorder: AVAudioRecorder!
     var decibelLevelTimer: Timer?
 
-
+    // MARK: State
 
     @Published var micValue: Float = 0
+
+    // MARK: Internal Methods
 
     func startRecording() {
         let recordingSession = AVAudioSession.sharedInstance()

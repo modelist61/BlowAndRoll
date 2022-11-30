@@ -1,15 +1,12 @@
-//
-//  ContentView.swift
-//  MyMicrophoneAccess
-//
-//  Created by Dmitry Tokarev on 27.11.2022.
-//
-
 import SwiftUI
 
 struct GameView: View {
 
+    // MARK: Properties
+
     @ObservedObject var viewModel = GameViewModel()
+
+    // MARK: UI
 
     var body: some View {
         VStack {
@@ -26,6 +23,8 @@ struct GameView: View {
         .frame(maxWidth: .infinity)
         .animation(.easeInOut, value: viewModel.circleMoveVertical)
     }
+
+    // MARK: UI Components
 
     private func recordButton(isStarted: Bool) -> some View {
         Button {

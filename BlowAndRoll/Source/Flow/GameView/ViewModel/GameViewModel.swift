@@ -2,17 +2,25 @@ import Foundation
 import Combine
 
 class GameViewModel: ObservableObject {
-    private let recordService = MicrophoneService()
-    private let motionService = MotionService()
+    // MARK: State
+
     @Published var circleMoveHorizontal: CGFloat = 0
     @Published var circleMoveVertical: CGFloat = 0
     @Published var isStarted = false
 
+    // MARK: Properties
+
+    private let recordService = MicrophoneService()
+    private let motionService = MotionService()
     private var subscribers = Set<AnyCancellable>()
+
+    // MARK: Initialization
 
     init() {
         setupBindings()
     }
+
+    // MARK: Internal Methods
 
     func start() {
         motionService.start()
@@ -26,6 +34,8 @@ class GameViewModel: ObservableObject {
         circleMoveVertical = 0
         isStarted = false
     }
+
+    // MARK: Private methods
 
     private func setupBindings() {
         recordService.$micValue

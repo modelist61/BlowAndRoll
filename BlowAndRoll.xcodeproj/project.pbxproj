@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7F41759C293658E8008312D4 /* MotionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F41759B293658E8008312D4 /* MotionService.swift */; };
-		7F845F7129337CAD00F7EE44 /* MyMicrophoneAccessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F845F7029337CAD00F7EE44 /* MyMicrophoneAccessApp.swift */; };
+		7F845F7129337CAD00F7EE44 /* BlowAndRoll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F845F7029337CAD00F7EE44 /* BlowAndRoll.swift */; };
 		7F845F7329337CAD00F7EE44 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F845F7229337CAD00F7EE44 /* GameView.swift */; };
 		7F845F7529337CAE00F7EE44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F845F7429337CAE00F7EE44 /* Assets.xcassets */; };
 		7F845F7829337CAE00F7EE44 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F845F7729337CAE00F7EE44 /* Preview Assets.xcassets */; };
@@ -20,8 +20,8 @@
 
 /* Begin PBXFileReference section */
 		7F41759B293658E8008312D4 /* MotionService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionService.swift; sourceTree = "<group>"; };
-		7F845F6D29337CAD00F7EE44 /* MyMicrophoneAccess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMicrophoneAccess.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F845F7029337CAD00F7EE44 /* MyMicrophoneAccessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMicrophoneAccessApp.swift; sourceTree = "<group>"; };
+		7F845F6D29337CAD00F7EE44 /* BlowAndRoll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlowAndRoll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F845F7029337CAD00F7EE44 /* BlowAndRoll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlowAndRoll.swift; sourceTree = "<group>"; };
 		7F845F7229337CAD00F7EE44 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		7F845F7429337CAE00F7EE44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F845F7729337CAE00F7EE44 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		7F845F6429337CAD00F7EE44 = {
 			isa = PBXGroup;
 			children = (
-				7F845F6F29337CAD00F7EE44 /* MyMicrophoneAccess */,
+				7F845F6F29337CAD00F7EE44 /* BlowAndRoll */,
 				7F845F6E29337CAD00F7EE44 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,12 +53,12 @@
 		7F845F6E29337CAD00F7EE44 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7F845F6D29337CAD00F7EE44 /* MyMicrophoneAccess.app */,
+				7F845F6D29337CAD00F7EE44 /* BlowAndRoll.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7F845F6F29337CAD00F7EE44 /* MyMicrophoneAccess */ = {
+		7F845F6F29337CAD00F7EE44 /* BlowAndRoll */ = {
 			isa = PBXGroup;
 			children = (
 				7F845F8E2933F8BD00F7EE44 /* TEMP */,
@@ -67,7 +67,7 @@
 				7F845F8D2933F84A00F7EE44 /* Resources */,
 				7F845F7629337CAE00F7EE44 /* Preview Content */,
 			);
-			path = MyMicrophoneAccess;
+			path = BlowAndRoll;
 			sourceTree = "<group>";
 		};
 		7F845F7629337CAE00F7EE44 /* Preview Content */ = {
@@ -141,7 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				7F845F7429337CAE00F7EE44 /* Assets.xcassets */,
-				7F845F7029337CAD00F7EE44 /* MyMicrophoneAccessApp.swift */,
+				7F845F7029337CAD00F7EE44 /* BlowAndRoll.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -157,9 +157,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7F845F6C29337CAD00F7EE44 /* MyMicrophoneAccess */ = {
+		7F845F6C29337CAD00F7EE44 /* BlowAndRoll */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F845F7B29337CAE00F7EE44 /* Build configuration list for PBXNativeTarget "MyMicrophoneAccess" */;
+			buildConfigurationList = 7F845F7B29337CAE00F7EE44 /* Build configuration list for PBXNativeTarget "BlowAndRoll" */;
 			buildPhases = (
 				7F845F6929337CAD00F7EE44 /* Sources */,
 				7F845F6A29337CAD00F7EE44 /* Frameworks */,
@@ -169,9 +169,9 @@
 			);
 			dependencies = (
 			);
-			name = MyMicrophoneAccess;
+			name = BlowAndRoll;
 			productName = MyMicrophoneAccess;
-			productReference = 7F845F6D29337CAD00F7EE44 /* MyMicrophoneAccess.app */;
+			productReference = 7F845F6D29337CAD00F7EE44 /* BlowAndRoll.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -189,7 +189,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7F845F6829337CAD00F7EE44 /* Build configuration list for PBXProject "MyMicrophoneAccess" */;
+			buildConfigurationList = 7F845F6829337CAD00F7EE44 /* Build configuration list for PBXProject "BlowAndRoll" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -202,7 +202,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7F845F6C29337CAD00F7EE44 /* MyMicrophoneAccess */,
+				7F845F6C29337CAD00F7EE44 /* BlowAndRoll */,
 			);
 		};
 /* End PBXProject section */
@@ -228,7 +228,7 @@
 				7F845F7329337CAD00F7EE44 /* GameView.swift in Sources */,
 				7F845F7F29337CC400F7EE44 /* MicrophoneService.swift in Sources */,
 				7F845F832933E68000F7EE44 /* GameViewModel.swift in Sources */,
-				7F845F7129337CAD00F7EE44 /* MyMicrophoneAccessApp.swift in Sources */,
+				7F845F7129337CAD00F7EE44 /* BlowAndRoll.swift in Sources */,
 				7F41759C293658E8008312D4 /* MotionService.swift in Sources */,
 				7F845F852933E68C00F7EE44 /* GameModel.swift in Sources */,
 			);
@@ -358,7 +358,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MyMicrophoneAccess/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BlowAndRoll/Preview Content\"";
 				DEVELOPMENT_TEAM = 5B6XYNA8CL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -374,7 +374,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Tokarev-Dmitry.MyMicrophoneAccess";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tokarev-Dmitry.BlowAndRoll";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -392,7 +392,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MyMicrophoneAccess/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BlowAndRoll/Preview Content\"";
 				DEVELOPMENT_TEAM = 5B6XYNA8CL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -408,7 +408,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Tokarev-Dmitry.MyMicrophoneAccess";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tokarev-Dmitry.BlowAndRoll";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -422,7 +422,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7F845F6829337CAD00F7EE44 /* Build configuration list for PBXProject "MyMicrophoneAccess" */ = {
+		7F845F6829337CAD00F7EE44 /* Build configuration list for PBXProject "BlowAndRoll" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F845F7929337CAE00F7EE44 /* Debug */,
@@ -431,7 +431,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F845F7B29337CAE00F7EE44 /* Build configuration list for PBXNativeTarget "MyMicrophoneAccess" */ = {
+		7F845F7B29337CAE00F7EE44 /* Build configuration list for PBXNativeTarget "BlowAndRoll" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F845F7C29337CAE00F7EE44 /* Debug */,

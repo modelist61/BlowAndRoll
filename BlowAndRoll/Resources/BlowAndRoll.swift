@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct MyMicrophoneAccessApp: App {
+struct BlowAndRollApp: App {
     var body: some Scene {
         WindowGroup {
             GameView()
