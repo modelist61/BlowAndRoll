@@ -4,7 +4,9 @@ import Foundation
 class MicrophoneService: ObservableObject {
     // MARK: Properties
 
+    // swiftlint:disable implicitly_unwrapped_optional
     var audioRecorder: AVAudioRecorder!
+    // swiftlint:enable implicitly_unwrapped_optional
     var decibelLevelTimer: Timer?
 
     // MARK: State
@@ -22,7 +24,9 @@ class MicrophoneService: ObservableObject {
             print("Failed to set up recording session")
         }
         let documentPath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
-        let audioFilename = documentPath.appendingPathComponent("\(Date().toString(dateFormat: "dd-MM-YY_'at'_HH:mm:ss")).m4a")
+        let audioFilename = documentPath.appendingPathComponent(
+            "\(Date().toString(dateFormat: "dd-MM-YY_'at'_HH:mm:ss")).m4a"
+        )
         let settings = [
             AVFormatIDKey: Int(kAudioFormatMPEG4AAC),
             AVSampleRateKey: 12000,
@@ -51,10 +55,8 @@ class MicrophoneService: ObservableObject {
 }
 
 
-extension Date
-{
-    func toString( dateFormat format  : String ) -> String
-    {
+extension Date {
+    func toString(dateFormat format: String) -> String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = format
         return dateFormatter.string(from: self)

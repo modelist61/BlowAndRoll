@@ -1,4 +1,3 @@
-
 import SwiftUI
 import CoreMotion
 
@@ -15,10 +14,10 @@ class MotionService: ObservableObject {
     // MARK: Internal Methods
 
     func start() {
-        self.manager.deviceMotionUpdateInterval = 1/60
-        self.manager.startDeviceMotionUpdates(to: .main) { (motionData, error) in
+        self.manager.deviceMotionUpdateInterval = (1 / 60)
+        self.manager.startDeviceMotionUpdates(to: .main) { motionData, error in
             guard error == nil else {
-                print(error!)
+                print(error as Any)
                 return
             }
 

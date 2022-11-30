@@ -161,6 +161,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F845F7B29337CAE00F7EE44 /* Build configuration list for PBXNativeTarget "BlowAndRoll" */;
 			buildPhases = (
+				7FF35DC529379750007FD485 /* SwiftLint */,
 				7F845F6929337CAD00F7EE44 /* Sources */,
 				7F845F6A29337CAD00F7EE44 /* Frameworks */,
 				7F845F6B29337CAD00F7EE44 /* Resources */,
@@ -218,6 +219,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FF35DC529379750007FD485 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=“$PATH:/opt/homebrew/bin”\nPATH=/opt/homebrew/bin:$PATH\nif [ -f ~/com.raywenderlich.swiftlint.yml ]; then\n if which swiftlint >/dev/null; then\n  swiftlint --no-cache --config ~/com.raywenderlich.swiftlint.yml\n fi\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7F845F6929337CAD00F7EE44 /* Sources */ = {

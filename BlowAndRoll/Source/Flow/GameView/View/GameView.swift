@@ -1,7 +1,6 @@
 import SwiftUI
 
 struct GameView: View {
-
     // MARK: Properties
 
     @ObservedObject var viewModel = GameViewModel()

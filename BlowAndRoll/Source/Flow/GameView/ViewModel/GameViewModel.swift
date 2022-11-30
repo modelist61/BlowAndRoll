@@ -39,10 +39,10 @@ class GameViewModel: ObservableObject {
 
     private func setupBindings() {
         recordService.$micValue
-            .sink { [weak self] db in
+            .sink { [weak self] decibel in
                 guard let self = self else { return }
-                self.makeOffsetValue(db)
-                print("db \(db)")
+                self.makeOffsetValue(decibel)
+                print("db \(decibel)")
             }
             .store(in: &subscribers)
 
