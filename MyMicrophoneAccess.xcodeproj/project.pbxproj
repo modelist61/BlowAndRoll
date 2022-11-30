@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F41759C293658E8008312D4 /* MotionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F41759B293658E8008312D4 /* MotionService.swift */; };
+		7F845F7129337CAD00F7EE44 /* MyMicrophoneAccessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F845F7029337CAD00F7EE44 /* MyMicrophoneAccessApp.swift */; };
+		7F845F7329337CAD00F7EE44 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F845F7229337CAD00F7EE44 /* GameView.swift */; };
+		7F845F7529337CAE00F7EE44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F845F7429337CAE00F7EE44 /* Assets.xcassets */; };
+		7F845F7829337CAE00F7EE44 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F845F7729337CAE00F7EE44 /* Preview Assets.xcassets */; };
+		7F845F7F29337CC400F7EE44 /* MicrophoneService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F845F7E29337CC400F7EE44 /* MicrophoneService.swift */; };
+		7F845F8129338CD000F7EE44 /* DidSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F845F8029338CD000F7EE44 /* DidSet.swift */; };
+		7F845F832933E68000F7EE44 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F845F822933E68000F7EE44 /* GameViewModel.swift */; };
+		7F845F852933E68C00F7EE44 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F845F842933E68C00F7EE44 /* GameModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F41759B293658E8008312D4 /* MotionService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionService.swift; sourceTree = "<group>"; };
+		7F845F6D29337CAD00F7EE44 /* MyMicrophoneAccess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMicrophoneAccess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F845F7029337CAD00F7EE44 /* MyMicrophoneAccessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMicrophoneAccessApp.swift; sourceTree = "<group>"; };
+		7F845F7229337CAD00F7EE44 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		7F845F7429337CAE00F7EE44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F845F7729337CAE00F7EE44 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F845F7E29337CC400F7EE44 /* MicrophoneService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrophoneService.swift; sourceTree = "<group>"; };
+		7F845F8029338CD000F7EE44 /* DidSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DidSet.swift; sourceTree = "<group>"; };
+		7F845F822933E68000F7EE44 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		7F845F842933E68C00F7EE44 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F845F6A29337CAD00F7EE44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F845F6429337CAD00F7EE44 = {
+			isa = PBXGroup;
+			children = (
+				7F845F6F29337CAD00F7EE44 /* MyMicrophoneAccess */,
+				7F845F6E29337CAD00F7EE44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F845F6E29337CAD00F7EE44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F845F6D29337CAD00F7EE44 /* MyMicrophoneAccess.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F845F6F29337CAD00F7EE44 /* MyMicrophoneAccess */ = {
+			isa = PBXGroup;
+			children = (
+				7F845F8E2933F8BD00F7EE44 /* TEMP */,
+				7F845F862933F80900F7EE44 /* Source */,
+				7F845F8C2933F84000F7EE44 /* Service */,
+				7F845F8D2933F84A00F7EE44 /* Resources */,
+				7F845F7629337CAE00F7EE44 /* Preview Content */,
+			);
+			path = MyMicrophoneAccess;
+			sourceTree = "<group>";
+		};
+		7F845F7629337CAE00F7EE44 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7F845F7729337CAE00F7EE44 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7F845F862933F80900F7EE44 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				7F845F872933F81200F7EE44 /* Flow */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		7F845F872933F81200F7EE44 /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				7F845F882933F81900F7EE44 /* GameView */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		7F845F882933F81900F7EE44 /* GameView */ = {
+			isa = PBXGroup;
+			children = (
+				7F845F8B2933F82F00F7EE44 /* Model */,
+				7F845F8A2933F82400F7EE44 /* ViewModel */,
+				7F845F892933F81F00F7EE44 /* View */,
+			);
+			path = GameView;
+			sourceTree = "<group>";
+		};
+		7F845F892933F81F00F7EE44 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7F845F7229337CAD00F7EE44 /* GameView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7F845F8A2933F82400F7EE44 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7F845F822933E68000F7EE44 /* GameViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7F845F8B2933F82F00F7EE44 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7F845F842933E68C00F7EE44 /* GameModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7F845F8C2933F84000F7EE44 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				7F41759B293658E8008312D4 /* MotionService.swift */,
+				7F845F7E29337CC400F7EE44 /* MicrophoneService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		7F845F8D2933F84A00F7EE44 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7F845F7429337CAE00F7EE44 /* Assets.xcassets */,
+				7F845F7029337CAD00F7EE44 /* MyMicrophoneAccessApp.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7F845F8E2933F8BD00F7EE44 /* TEMP */ = {
+			isa = PBXGroup;
+			children = (
+				7F845F8029338CD000F7EE44 /* DidSet.swift */,
+			);
+			path = TEMP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F845F6C29337CAD00F7EE44 /* MyMicrophoneAccess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F845F7B29337CAE00F7EE44 /* Build configuration list for PBXNativeTarget "MyMicrophoneAccess" */;
+			buildPhases = (
+				7F845F6929337CAD00F7EE44 /* Sources */,
+				7F845F6A29337CAD00F7EE44 /* Frameworks */,
+				7F845F6B29337CAD00F7EE44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyMicrophoneAccess;
+			productName = MyMicrophoneAccess;
+			productReference = 7F845F6D29337CAD00F7EE44 /* MyMicrophoneAccess.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F845F6529337CAD00F7EE44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					7F845F6C29337CAD00F7EE44 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 7F845F6829337CAD00F7EE44 /* Build configuration list for PBXProject "MyMicrophoneAccess" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F845F6429337CAD00F7EE44;
+			productRefGroup = 7F845F6E29337CAD00F7EE44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F845F6C29337CAD00F7EE44 /* MyMicrophoneAccess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F845F6B29337CAD00F7EE44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F845F7829337CAE00F7EE44 /* Preview Assets.xcassets in Resources */,
+				7F845F7529337CAE00F7EE44 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F845F6929337CAD00F7EE44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F845F8129338CD000F7EE44 /* DidSet.swift in Sources */,
+				7F845F7329337CAD00F7EE44 /* GameView.swift in Sources */,
+				7F845F7F29337CC400F7EE44 /* MicrophoneService.swift in Sources */,
+				7F845F832933E68000F7EE44 /* GameViewModel.swift in Sources */,
+				7F845F7129337CAD00F7EE44 /* MyMicrophoneAccessApp.swift in Sources */,
+				7F41759C293658E8008312D4 /* MotionService.swift in Sources */,
+				7F845F852933E68C00F7EE44 /* GameModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7F845F7929337CAE00F7EE44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F845F7A29337CAE00F7EE44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F845F7C29337CAE00F7EE44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyMicrophoneAccess/Preview Content\"";
+				DEVELOPMENT_TEAM = 5B6XYNA8CL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need Mic";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tokarev-Dmitry.MyMicrophoneAccess";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7F845F7D29337CAE00F7EE44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyMicrophoneAccess/Preview Content\"";
+				DEVELOPMENT_TEAM = 5B6XYNA8CL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need Mic";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tokarev-Dmitry.MyMicrophoneAccess";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F845F6829337CAD00F7EE44 /* Build configuration list for PBXProject "MyMicrophoneAccess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F845F7929337CAE00F7EE44 /* Debug */,
+				7F845F7A29337CAE00F7EE44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F845F7B29337CAE00F7EE44 /* Build configuration list for PBXNativeTarget "MyMicrophoneAccess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F845F7C29337CAE00F7EE44 /* Debug */,
+				7F845F7D29337CAE00F7EE44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F845F6529337CAD00F7EE44 /* Project object */;
+}
